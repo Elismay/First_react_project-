@@ -1,0 +1,18 @@
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import { Outlet } from 'react-router-dom'
+function Routing() {
+  return (
+    <div>
+        <Header/>
+        <main >
+        <Outlet/>      
+        </main>
+        <Footer/>
+
+
+    </div>
+  )
+}
+
+export default Routing
